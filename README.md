@@ -7,11 +7,21 @@ Pozwala przypisywać klucze do pojazdów, udostępniać je innym graczom oraz za
 
 ## 🚗 Funkcje
 
-- 🔐 Automatyczne przypisywanie kluczy do kupionych pojazdów (do konfiguracji)
-- 🧠 Wsparcie dla customowych pojazdów i rejestracji tablic
-- - Framework: `ESX`
+- 🔐 Dodawanie i usuwanie kluczy (exporty)
+- 🚗 Otwieranie/zamykanie pojazdu (`U`)
+- 🔧 Uruchamianie/zgaszanie silnika (`Y`)
+- 🔍 Szukanie kluczy w pojeździe (`U`)
+- 💡 Napisany pod **ESX Extended**
+- 📦 Prosty w integracji z innymi systemami
 
 ---
+
+## 🧰 Exporty
+
+```lua
+exports("addKeys", function(plate)
+exports("removeKeys", function(plate)
+```
 
 ## 🔧 Instalacja
 
