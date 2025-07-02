@@ -7,6 +7,8 @@ exports("addKeys", function(plate) -- dodawanie kluczy do pojazdu
 
 exports("removeKeys", function(plate) -- zabieranie kluczy
 
+KEYBINDS:
+
 Otworz zamknij pojazd -- U
 
 Uruchom/Zgas silnikk -- Y
